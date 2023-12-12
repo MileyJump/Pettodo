@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B014A9BB2AA6126B0043EE4E /* DiaryAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B014A9BA2AA6126B0043EE4E /* DiaryAlbumView.swift */; };
+		B014A9BD2AA612B70043EE4E /* DiaryWriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B014A9BC2AA612B70043EE4E /* DiaryWriteView.swift */; };
+		B014A9BF2AA614B70043EE4E /* DiaryWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B014A9BE2AA614B70043EE4E /* DiaryWriteViewController.swift */; };
+		B014A9C12AB82B7C0043EE4E /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = B014A9C02AB82B7C0043EE4E /* Album.swift */; };
+		B014A9C32AB832300043EE4E /* AlbumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B014A9C22AB832300043EE4E /* AlbumManager.swift */; };
+		B014A9C52AB96E510043EE4E /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B014A9C42AB96E510043EE4E /* AlbumCollectionViewCell.swift */; };
+		CC7F4E462A785C5A003BF42B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F4E452A785C5A003BF42B /* AppDelegate.swift */; };
+		CC7F4E482A785C5A003BF42B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F4E472A785C5A003BF42B /* SceneDelegate.swift */; };
+		CC7F4E4A2A785C5A003BF42B /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F4E492A785C5A003BF42B /* MainTabViewController.swift */; };
+		CC7F4E4D2A785C5A003BF42B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7F4E4B2A785C5A003BF42B /* Main.storyboard */; };
+		CC7F4E4F2A785C5B003BF42B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7F4E4E2A785C5B003BF42B /* Assets.xcassets */; };
+		CC7F4E522A785C5B003BF42B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7F4E502A785C5B003BF42B /* LaunchScreen.storyboard */; };
+		CC7F4E5C2A785D1F003BF42B /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F4E5B2A785D1F003BF42B /* TodoListViewController.swift */; };
+		CC7F4E602A785E5E003BF42B /* DiaryAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F4E5F2A785E5E003BF42B /* DiaryAlbumViewController.swift */; };
+		CC7F4E622A786593003BF42B /* ChatGPTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F4E612A786593003BF42B /* ChatGPTViewController.swift */; };
+		CC7F4E692A786749003BF42B /* PettodoColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F4E682A786749003BF42B /* PettodoColors.swift */; };
+		CC7F4E702A789C7E003BF42B /* TabBarIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F4E6F2A789C7E003BF42B /* TabBarIndicator.swift */; };
+		CC7F4E722A789F1A003BF42B /* PettodoImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F4E712A789F1A003BF42B /* PettodoImages.swift */; };
+		CC7F4E772A78A32C003BF42B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CC7F4E762A78A32C003BF42B /* SnapKit */; };
+		CC7F4E792A7C29D8003BF42B /* GamjaFlower-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC7F4E782A7C29D8003BF42B /* GamjaFlower-Regular.ttf */; };
+		CC7F4E7B2A7C2A6C003BF42B /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F4E7A2A7C2A6C003BF42B /* TodoListView.swift */; };
+		CC7F4E7E2A7C2CEA003BF42B /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F4E7D2A7C2CEA003BF42B /* UIFont+Extension.swift */; };
+		CC7F4E842A7C316D003BF42B /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F4E832A7C316D003BF42B /* PhotoCollectionViewController.swift */; };
+		CC7F4E862A7C33E3003BF42B /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F4E852A7C33E3003BF42B /* PhotoCollectionViewCell.swift */; };
+		CC8683DA2A84963000D95622 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8683D92A84963000D95622 /* FloatingButton.swift */; };
+		CC8684202A94863A00D95622 /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86841F2A94863A00D95622 /* NewTaskViewController.swift */; };
+		CC8684222A949DD300D95622 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8684212A949DD300D95622 /* NewTaskView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B014A9BA2AA6126B0043EE4E /* DiaryAlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryAlbumView.swift; sourceTree = "<group>"; };
+		B014A9BC2AA612B70043EE4E /* DiaryWriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryWriteView.swift; sourceTree = "<group>"; };
+		B014A9BE2AA614B70043EE4E /* DiaryWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryWriteViewController.swift; sourceTree = "<group>"; };
+		B014A9C02AB82B7C0043EE4E /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Album.swift; path = Pettodo/Models/Models/Album.swift; sourceTree = SOURCE_ROOT; };
+		B014A9C22AB832300043EE4E /* AlbumManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlbumManager.swift; path = Pettodo/Models/Models/AlbumManager.swift; sourceTree = SOURCE_ROOT; };
+		B014A9C42AB96E510043EE4E /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		CC7F4E422A785C5A003BF42B /* Pettodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pettodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7F4E452A785C5A003BF42B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC7F4E472A785C5A003BF42B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC7F4E492A785C5A003BF42B /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		CC7F4E4C2A785C5A003BF42B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC7F4E4E2A785C5B003BF42B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC7F4E512A785C5B003BF42B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC7F4E532A785C5B003BF42B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7F4E5B2A785D1F003BF42B /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
+		CC7F4E5F2A785E5E003BF42B /* DiaryAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryAlbumViewController.swift; sourceTree = "<group>"; };
+		CC7F4E612A786593003BF42B /* ChatGPTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTViewController.swift; sourceTree = "<group>"; };
+		CC7F4E682A786749003BF42B /* PettodoColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PettodoColors.swift; sourceTree = "<group>"; };
+		CC7F4E6F2A789C7E003BF42B /* TabBarIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarIndicator.swift; sourceTree = "<group>"; };
+		CC7F4E712A789F1A003BF42B /* PettodoImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PettodoImages.swift; sourceTree = "<group>"; };
+		CC7F4E782A7C29D8003BF42B /* GamjaFlower-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GamjaFlower-Regular.ttf"; sourceTree = "<group>"; };
+		CC7F4E7A2A7C2A6C003BF42B /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		CC7F4E7D2A7C2CEA003BF42B /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		CC7F4E832A7C316D003BF42B /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		CC7F4E852A7C33E3003BF42B /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		CC8683D92A84963000D95622 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		CC86841F2A94863A00D95622 /* NewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
+		CC8684212A949DD300D95622 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC7F4E3F2A785C5A003BF42B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7F4E772A78A32C003BF42B /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B014A9C62ABAEAB70043EE4E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B014A9C02AB82B7C0043EE4E /* Album.swift */,
+				B014A9C22AB832300043EE4E /* AlbumManager.swift */,
+			);
+			name = Models;
+			path = Models/Models;
+			sourceTree = "<group>";
+		};
+		CC7F4E392A785C5A003BF42B = {
+			isa = PBXGroup;
+			children = (
+				CC7F4E442A785C5A003BF42B /* Pettodo */,
+				CC7F4E432A785C5A003BF42B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC7F4E432A785C5A003BF42B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC7F4E422A785C5A003BF42B /* Pettodo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC7F4E442A785C5A003BF42B /* Pettodo */ = {
+			isa = PBXGroup;
+			children = (
+				CC7F4E452A785C5A003BF42B /* AppDelegate.swift */,
+				CC7F4E472A785C5A003BF42B /* SceneDelegate.swift */,
+				B014A9C62ABAEAB70043EE4E /* Models */,
+				CC7F4E732A78A2CA003BF42B /* Views */,
+				CC7F4E6E2A7899C3003BF42B /* Controllers */,
+				CC7F4E632A78661F003BF42B /* Utilities */,
+				CC7F4E7C2A7C2CDB003BF42B /* Extensions */,
+				CC7F4E4B2A785C5A003BF42B /* Main.storyboard */,
+				CC7F4E4E2A785C5B003BF42B /* Assets.xcassets */,
+				CC7F4E782A7C29D8003BF42B /* GamjaFlower-Regular.ttf */,
+				CC7F4E502A785C5B003BF42B /* LaunchScreen.storyboard */,
+				CC7F4E532A785C5B003BF42B /* Info.plist */,
+			);
+			path = Pettodo;
+			sourceTree = "<group>";
+		};
+		CC7F4E632A78661F003BF42B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CC7F4E682A786749003BF42B /* PettodoColors.swift */,
+				CC7F4E712A789F1A003BF42B /* PettodoImages.swift */,
+				CC7F4E6F2A789C7E003BF42B /* TabBarIndicator.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CC7F4E6E2A7899C3003BF42B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC7F4E492A785C5A003BF42B /* MainTabViewController.swift */,
+				CC7F4E5B2A785D1F003BF42B /* TodoListViewController.swift */,
+				CC7F4E5F2A785E5E003BF42B /* DiaryAlbumViewController.swift */,
+				B014A9BE2AA614B70043EE4E /* DiaryWriteViewController.swift */,
+				CC7F4E612A786593003BF42B /* ChatGPTViewController.swift */,
+				CC7F4E832A7C316D003BF42B /* PhotoCollectionViewController.swift */,
+				CC86841F2A94863A00D95622 /* NewTaskViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CC7F4E732A78A2CA003BF42B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC7F4E852A7C33E3003BF42B /* PhotoCollectionViewCell.swift */,
+				B014A9C42AB96E510043EE4E /* AlbumCollectionViewCell.swift */,
+				CC7F4E7A2A7C2A6C003BF42B /* TodoListView.swift */,
+				CC8683D92A84963000D95622 /* FloatingButton.swift */,
+				CC8684212A949DD300D95622 /* NewTaskView.swift */,
+				B014A9BA2AA6126B0043EE4E /* DiaryAlbumView.swift */,
+				B014A9BC2AA612B70043EE4E /* DiaryWriteView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC7F4E7C2A7C2CDB003BF42B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CC7F4E7D2A7C2CEA003BF42B /* UIFont+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC7F4E412A785C5A003BF42B /* Pettodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7F4E562A785C5B003BF42B /* Build configuration list for PBXNativeTarget "Pettodo" */;
+			buildPhases = (
+				CC7F4E3E2A785C5A003BF42B /* Sources */,
+				CC7F4E3F2A785C5A003BF42B /* Frameworks */,
+				CC7F4E402A785C5A003BF42B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pettodo;
+			packageProductDependencies = (
+				CC7F4E762A78A32C003BF42B /* SnapKit */,
+			);
+			productName = Pettodo;
+			productReference = CC7F4E422A785C5A003BF42B /* Pettodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC7F4E3A2A785C5A003BF42B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CC7F4E412A785C5A003BF42B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CC7F4E3D2A785C5A003BF42B /* Build configuration list for PBXProject "Pettodo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC7F4E392A785C5A003BF42B;
+			packageReferences = (
+				CC7F4E752A78A32C003BF42B /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = CC7F4E432A785C5A003BF42B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC7F4E412A785C5A003BF42B /* Pettodo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC7F4E402A785C5A003BF42B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7F4E522A785C5B003BF42B /* LaunchScreen.storyboard in Resources */,
+				CC7F4E792A7C29D8003BF42B /* GamjaFlower-Regular.ttf in Resources */,
+				CC7F4E4F2A785C5B003BF42B /* Assets.xcassets in Resources */,
+				CC7F4E4D2A785C5A003BF42B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC7F4E3E2A785C5A003BF42B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7F4E622A786593003BF42B /* ChatGPTViewController.swift in Sources */,
+				CC8684202A94863A00D95622 /* NewTaskViewController.swift in Sources */,
+				CC7F4E862A7C33E3003BF42B /* PhotoCollectionViewCell.swift in Sources */,
+				CC7F4E702A789C7E003BF42B /* TabBarIndicator.swift in Sources */,
+				CC8684222A949DD300D95622 /* NewTaskView.swift in Sources */,
+				CC7F4E7B2A7C2A6C003BF42B /* TodoListView.swift in Sources */,
+				B014A9BB2AA6126B0043EE4E /* DiaryAlbumView.swift in Sources */,
+				B014A9BF2AA614B70043EE4E /* DiaryWriteViewController.swift in Sources */,
+				CC7F4E602A785E5E003BF42B /* DiaryAlbumViewController.swift in Sources */,
+				CC7F4E5C2A785D1F003BF42B /* TodoListViewController.swift in Sources */,
+				CC7F4E4A2A785C5A003BF42B /* MainTabViewController.swift in Sources */,
+				B014A9C32AB832300043EE4E /* AlbumManager.swift in Sources */,
+				CC7F4E462A785C5A003BF42B /* AppDelegate.swift in Sources */,
+				CC7F4E842A7C316D003BF42B /* PhotoCollectionViewController.swift in Sources */,
+				CC8683DA2A84963000D95622 /* FloatingButton.swift in Sources */,
+				CC7F4E482A785C5A003BF42B /* SceneDelegate.swift in Sources */,
+				CC7F4E692A786749003BF42B /* PettodoColors.swift in Sources */,
+				CC7F4E722A789F1A003BF42B /* PettodoImages.swift in Sources */,
+				B014A9BD2AA612B70043EE4E /* DiaryWriteView.swift in Sources */,
+				CC7F4E7E2A7C2CEA003BF42B /* UIFont+Extension.swift in Sources */,
+				B014A9C52AB96E510043EE4E /* AlbumCollectionViewCell.swift in Sources */,
+				B014A9C12AB82B7C0043EE4E /* Album.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC7F4E4B2A785C5A003BF42B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC7F4E4C2A785C5A003BF42B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC7F4E502A785C5B003BF42B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC7F4E512A785C5B003BF42B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC7F4E542A785C5B003BF42B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC7F4E552A785C5B003BF42B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC7F4E572A785C5B003BF42B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q35ZG4845H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pettodo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jungkim.Pettodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CC7F4E582A785C5B003BF42B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q35ZG4845H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pettodo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jungkim.Pettodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC7F4E3D2A785C5A003BF42B /* Build configuration list for PBXProject "Pettodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7F4E542A785C5B003BF42B /* Debug */,
+				CC7F4E552A785C5B003BF42B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7F4E562A785C5B003BF42B /* Build configuration list for PBXNativeTarget "Pettodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7F4E572A785C5B003BF42B /* Debug */,
+				CC7F4E582A785C5B003BF42B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CC7F4E752A78A32C003BF42B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CC7F4E762A78A32C003BF42B /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC7F4E752A78A32C003BF42B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CC7F4E3A2A785C5A003BF42B /* Project object */;
+}
